@@ -1,0 +1,31 @@
+
+{
+    "cube-t-b/": {
+        "cube-image/":{
+            "settings": {
+                "version": "latest",
+                "items": ["samba"]
+            }
+        },
+        "cube-transport-image/":{
+            "settings": {
+                "version": "all",
+                "items": ["samba"]
+            }
+        }
+    }, 
+    "cube-d/": {
+        "cube-image/":{
+            "settings": {
+                "version": "latest",
+                "items": ["samba"]
+            }
+        },
+        "cube-transport-image/":{
+            "settings": {
+                "version": "all",
+                "items": ["samba"]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+
+{"cube-t-b/" :
+{
+    "samba": {
+        "1" : [[1, "at91bootstrap.bin"]], 
+        "2" : [[1, ".ubi"], [0, "100hz"]],
+        "3" : [[1, "u-boot.bin"]]
+    },
+    "samba-100hz" : {
+        "1" : [[1, "at91bootstrap.bin"]], 
+        "2" : [[1, ".ubi"], [1, "100hz"]],
+        "3" : [[1, "u-boot.bin"]]
+    },
+    "swupdate" : {
+        "1" : [[1, "at91bootstrap"], [1, ".swu.bin" ], [0, "100hz"]],
+        "2" : [[1, "bootloader"], [1, ".swu.bin" ], [0, "100hz"]],
+        "3" : [[1, "recovery"], [1, ".swu.bin" ], [0, "100hz"]],
+        "4" : [[1, "rootfs"], [1, ".swu.bin" ], [0, "100hz"]]
+    },
+    "swupdate-100hz" : {
+        "1" : [[1, "at91bootstrap"], [1, ".swu.bin" ], [1, "100hz"]],
+        "2" : [[1, "bootloader"], [1, ".swu.bin" ], [1, "100hz"]],
+        "3" : [[1, "recovery"], [1, ".swu.bin" ], [1, "100hz"]],
+        "4" : [[1, "rootfs"], [1, ".swu.bin" ], [1, "100hz"]]
+    }
+},
+"cube-d/" :
+{
+    "samba": {
+        "1" : [[1, "at91bootstrap.bin"]], 
+        "2" : [[1, ".ubi"], [0, "100hz"]],
+        "3" : [[1, "u-boot.bin"]]
+    },
+    "samba-100hz" : {
+        "1" : [[1, "at91bootstrap.bin"]], 
+        "2" : [[1, ".ubi"], [1, "100hz"]],
+        "3" : [[1, "u-boot.bin"]]
+    },
+    "swupdate" : {
+        "1" : [[1, "at91bootstrap"], [1, ".swu.bin" ], [0, "100hz"]],
+        "2" : [[1, "bootloader"], [1, ".swu.bin" ], [0, "100hz"]],
+        "3" : [[1, "recovery"], [1, ".swu.bin" ], [0, "100hz"]],
+        "4" : [[1, "rootfs"], [1, ".swu.bin" ], [0, "100hz"]]
+    },
+    "swupdate-100hz" : {
+        "1" : [[1, "at91bootstrap"], [1, ".swu.bin" ], [1, "100hz"]],
+        "2" : [[1, "bootloader"], [1, ".swu.bin" ], [1, "100hz"]],
+        "3" : [[1, "recovery"], [1, ".swu.bin" ], [1, "100hz"]],
+        "4" : [[1, "rootfs"], [1, ".swu.bin" ], [1, "100hz"]]
+    }
+}
+}
